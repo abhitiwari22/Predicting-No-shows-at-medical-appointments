@@ -23,6 +23,6 @@ SMS_received: 1 or more messages sent to the patient
 No-show: "No" indicates if the patient attended to their appointment and "Yes" if they didn't attend
 
 
-#Error Metric : Recall
+# Error Metric : Recall
 
 For this problem, minimizing Type II errors is a priority. A Type II error here is a situation where the algorithm incorrectly posits a patient will turn up for an appointment, but they do not present themselves for the scheduled appointment. The inverse situation, in which the prediction is a patient no-attendance, but they do attend the appointment is less of a burden on the practice and has fewer negative impacts for the patient than not receiving care. The prediction as no-attendance, but the patient does attend, is the Type I error. The most successful algorithm is defined as one with high recall.
